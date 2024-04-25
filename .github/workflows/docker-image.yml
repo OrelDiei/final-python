@@ -9,7 +9,7 @@ on:
 
 jobs:
 
-  CI:
+  build:
 
     runs-on: ubuntu-latest
 
