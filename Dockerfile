@@ -1,4 +1,4 @@
-From pyhton: 3.7
+FROM pyhton: 3.7
 
 WORKDIR /app
 
