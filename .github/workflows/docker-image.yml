@@ -16,4 +16,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag final-python:$(date +%s)-${{ git.sha }}
+      run: docker build . --file Dockerfile --tag final-python:$(date +%s)-${{ github.sha }}
