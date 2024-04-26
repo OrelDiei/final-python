@@ -1,0 +1,3 @@
+#!/bin/bash
+docker stop war-orel
+docker rm war-orel
