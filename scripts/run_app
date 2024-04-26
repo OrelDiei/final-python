@@ -1,2 +1,2 @@
 #!/bin/bash
-docker run -itd --name war-orel -p 5000:5000 oreldiei/workflow:11-66b4be2083026dadab4ff3e65acc18f4f0a6917e
+docker run -itd --name war-orel -p 5000:5000 oreldiei/workflow:latest
